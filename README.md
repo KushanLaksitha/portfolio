@@ -414,8 +414,6 @@ Software Developer
 - ✅ Keep projects up to date
 - ✅ Test on multiple devices
 
-**Good luck with your portfolio!** 🚀
-
 ---
 
 <div align="center">
