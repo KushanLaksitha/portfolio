@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kushan Kumarasiri - Software Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=JetBrains+Mono:wght@300;400;600&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">KK</span>
+                <div class="logo-pulse"></div>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+            <div class="grid-pattern"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="greeting">
+                    <span class="wave">👋</span>
+                    <span>Hello, I'm</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Kushan</span>
+                    <span class="title-line">Kumarasiri</span>
+                </h1>
+                <div class="role-container">
+                    <span class="role-prefix">&lt;</span>
+                    <h2 class="hero-role" id="roleText">Software Developer</h2>
+                    <span class="role-suffix">/&gt;</span>
+                </div>
+                <p class="hero-description">
+                    Crafting innovative digital solutions with passion and precision. 
+                    Specialized in full-stack development, database architecture, and 
+                    creating meaningful user experiences.
+                </p>
+                <div class="hero-cta">
+                    <a href="projects.html" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="contact.html" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="profile-image-container">
+                    <div class="profile-glow"></div>
+                    <div class="profile-border">
+                        <img src="profile.jpg" alt="Kushan Kumarasiri - Software Developer" class="profile-image">
+                    </div>
+                    <div class="profile-decorations">
+                        <div class="decoration-ring ring-1"></div>
+                        <div class="decoration-ring ring-2"></div>
+                        <div class="decoration-ring ring-3"></div>
+                    </div>
+                </div>
+                <div class="floating-elements">
+                    <div class="float-item" style="--delay: 0s; --x: 20px; --y: -30px;">
+                        <span class="tech-badge">Python</span>
+                    </div>
+                    <div class="float-item" style="--delay: 0.5s; --x: -25px; --y: 40px;">
+                        <span class="tech-badge">Flask</span>
+                    </div>
+                    <div class="float-item" style="--delay: 1s; --x: 30px; --y: 60px;">
+                        <span class="tech-badge">MySQL</span>
+                    </div>
+                    <div class="float-item" style="--delay: 1.5s; --x: -30px; --y: -40px;">
+                        <span class="tech-badge">C#</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- Quick Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">🎓</div>
+                    <div class="stat-number" data-target="3">0</div>
+                    <div class="stat-label">Academic Programs</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">💼</div>
+                    <div class="stat-number" data-target="6">0</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🛠️</div>
+                    <div class="stat-number" data-target="8">0</div>
+                    <div class="stat-label">Technologies Mastered</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🏆</div>
+                    <div class="stat-number" data-target="9">0</div>
+                    <div class="stat-label">Certifications & Awards</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Preview -->
+    <section class="featured-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A selection of my recent work showcasing diverse technical expertise</p>
+            </div>
+
+            <div class="projects-preview">
+                <div class="project-card featured">
+                    <div class="project-number">01</div>
+                    <div class="project-content">
+                        <h3 class="project-title">MediTrack</h3>
+                        <p class="project-description">Decentralized Patient Health Record System with advanced encryption and secure data management</p>
+                        <div class="project-tags">
+                            <span class="tag">Flask</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Encryption</span>
+                            <span class="tag">Security</span>
+                        </div>
+                    </div>
+                    <a href="projects.html" class="project-link">
+                        <span>Explore</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-number">02</div>
+                    <div class="project-content">
+                        <h3 class="project-title">SmartTravelLK</h3>
+                        <p class="project-description">Intelligent tourism recommendation system for Sri Lanka with geolocation features</p>
+                        <div class="project-tags">
+                            <span class="tag">Flask</span>
+                            <span class="tag">Bootstrap</span>
+                            <span class="tag">Geopy</span>
+                        </div>
+                    </div>
+                    <a href="projects.html" class="project-link">
+                        <span>Explore</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-number">03</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Food Waste Prediction</h3>
+                        <p class="project-description">AI-powered system for predicting and reducing food waste using data analytics</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Chart.js</span>
+                            <span class="tag">ML</span>
+                        </div>
+                    </div>
+                    <a href="projects.html" class="project-link">
+                        <span>Explore</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="section-cta">
+                <a href="projects.html" class="btn btn-outline">
+                    <span>View All Projects</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-text">KK</span>
+                    </div>
+                    <p>Building the future, one line of code at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="skills.html">Skills</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="https://linkedin.com/in/kushan-kumarasiri-542780258" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://github.com/KushanLaksitha" target="_blank">GitHub</a></li>
+                            <li><a href="/cdn-cgi/l/email-protection#dcb7a9afb4bdb2b0bdb7afb5a8b4bdefee9cbbb1bdb5b0f2bfb3b1">Email</a></li>
+                            <li><a href="contact.html">Contact Form</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kushan Kumarasiri. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
