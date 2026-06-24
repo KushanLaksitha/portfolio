@@ -403,24 +403,11 @@ Software Developer
 💻 **GitHub:** [github.com/KushanLaksitha](https://github.com/KushanLaksitha)
 📍 **Location:** Kuliyapitiya, Sri Lanka
 
----
 
-## 🎉 Final Notes
-
-**Remember to:**
-- ✅ Add your profile image
-- ✅ Update contact information
-- ✅ Customize colors to match your brand
-- ✅ Keep projects up to date
-- ✅ Test on multiple devices
-
-**Good luck with your portfolio!** 🚀
-
----
 
 <div align="center">
 
-**Made with ❤️ by Kushan Kumarasiri**
+**Made by Kushan Kumarasiri**
 
 *Building the future, one line of code at a time.*
 
